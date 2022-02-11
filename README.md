@@ -63,7 +63,7 @@ History dalam perubahan di repository dapat dilihat dalam sebuah graph di menu *
 
 ## GITHUB: FORK
 GitHub memungkinkan repository milik orang lain beserta history di dalam repository diduplikat ke dalam repository pribadi kita. Sehingga, kita dapat memodifikasi repo tersebut untuk kita gunakan pada project kita tersendiri, atau kita juga dapat berkontribusi pada repo orang lain dengan mengusulkan perubahan tersebut ke pemilik repo (*pull request*).
-![](bagian4.png)
+<br>![](bagian4.png)</br>
 
 <p>&nbsp;</p>
 
