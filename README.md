@@ -15,6 +15,7 @@
 5. [BEKERJA DENGAN GIT](https://www.youtube.com/watch?v=e-6OkXRqWaE&list=PLFIM0718LjIVknj6sgsSceMqlq242-jNf&index=5)
 6. [GIT BRANCH & MERGE](https://www.youtube.com/watch?v=EGl7KxVOyNs&list=PLFIM0718LjIVknj6sgsSceMqlq242-jNf&index=6)
 7. [GITIGNORE](https://www.youtube.com/watch?v=LK3kX4n-vLM&list=PLFIM0718LjIVknj6sgsSceMqlq242-jNf&index=12)
+8. DOCUMENTATION
 
 <p>&nbsp;</p>
 
@@ -88,16 +89,25 @@ lalu lakukan push untuk mengirim perubahan ke dalam GitHub
 <p>&nbsp;</p>
 
 ## GIT BRANCH & MERGE
-Our robot movement is handled by publishing `twist` message to the `/cmd_vel` or `/planar_vel` topics. We used two input which is destination pose/coordinate and the odometry of the robot for the movement algorithm. At first, the robot will correct its orientation to face the destination. Then the robot will go to its destination in a straight line. Here are the demonstration,
-
-![](photos/movement2.gif)
+Sama seperi pada GitHub, cabang berguna untuk membuat cabang dari file yang di master. Cabang berguna agar anggota dalam tim dapat bekerja tanpa mengganggu cabang dari master. Hal ini berguna agar setiap orang bekerja pada branchnya sendiri.
+Cara membuat branch :
+- ketik 
+``` 
+git branch <nama-branch> 
+```
+- untuk melihat semua branch, gunakan 
+``` 
+git branch
+ ```
+- untuk pindah ke dalam branch lain, gunakan 
+``` 
+git checkout <nama-branch> 
+```
 
 <p>&nbsp;</p>
 
 ## GIT IGNORE
-For our robot ball chaser algorithm, we modified the movement algorithm to make its destination argument set to the ball pose message that we received from the /ball_state topic (message on this topic published from ball_state_pub node). The result is the robot will go to the ball's pose/coordinate. Here are the demonstration,
 
-![](photos/ball_chaser2.gif)
 
 <p>&nbsp;</p>
 
@@ -106,3 +116,10 @@ For our robot ball chaser algorithm, we modified the movement algorithm to make 
 - MODUL 1 PROGRAMMING SEKURO Pengenalan Git & GitHub
 
 - Playlist *GIT & GITHUB* Channel Web Programming UNPAS. https://www.youtube.com/playlist?list=PLFIM0718LjIVknj6sgsSceMqlq242-jNf. Accessed on 10 February 2022
+
+<p>&nbsp;</p>
+
+## DOCUMENTATION
+![](Screenshot(193).png)
+![](Screenshot(194).png)
+![](Screenshot(195).png)
