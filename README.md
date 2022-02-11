@@ -33,36 +33,14 @@ GIT dan GitHub juga dapat dilakukan bersamaan dengan menggunakan push and pull
 <p>&nbsp;</p>
 
 ## BEKERJA DENGAN GITHUB
-To launch the simulation, do the following steps:
-1. Clone the repository
-```
-$ git clone https://gitlab.com/dagozilla/academy/2021-internship2/group-1/ssl-simulator.git
-```
-
-2. cd to `/ssl-simulator`, then cd to `/ssl_ws`
-```
-$ cd ssl-simulator
-$ cd ssl_ws
-```
-
-3. run `catkin_make`
-```
-$ catkin_make
-```
-
-4. Source `setup.bash`
-```
-$ source devel/setup.bash
-```
-
-5. Launch the world
-```
-$ roslaunch sslbot_gazebo sslbot.launch
-```
-
-6. The result will look like this
-
-![](https://i.ibb.co/9hy52RC/Screenshot-from-2021-07-18-05-32-43.png)
+Cara mengelola repository pada GitHub
+- Buat akun GitHub terlebih dahulu pada https://github.com/.
+- Tekan tanda (+) di bagian kanan atas dan tekan *"New Repository"*
+- Isi nama repository beserta deskripsi(opsional), pilih apakah repo akan dipublic atau di private
+- Centang *"Initialize this repository with a README"*, jika ingin repository memiliki file README.
+- Lalu tekan Create Repository
+- Jika didalam repo ingin ditambahkan file, tekan *"Create New FIle"*, 
+- Setiap perubahan di dalam repository perlu dilakukan *"commit"* yang history commit akan tersimpan di dalam GitHub
 
 <p>&nbsp;</p>
 
