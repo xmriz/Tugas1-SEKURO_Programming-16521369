@@ -107,6 +107,7 @@ git checkout <nama-branch>
 <p>&nbsp;</p>
 
 ## GIT IGNORE
+.gitignore adalah sebuah file yang dapat kita simpan di dalam repository git kita. Fungsi dari file ini agar pada saat commit ada file yang tidak ikut terbawa ke dalam add. Cara menggunakan file ini hanya dengan membuuat file .gitignore dan mendaftar file-file yang ingin dimasukkan ke dalamnya.
 
 
 <p>&nbsp;</p>
