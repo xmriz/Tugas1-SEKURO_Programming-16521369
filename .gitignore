@@ -1,1 +1,2 @@
-*.png
+*.png 
+# artinya semua file bertype .png akan diabaikan dalam commit
