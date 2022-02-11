@@ -49,10 +49,9 @@ Cara mengelola repository pada GitHub
 ## GITHUB: BRANCH
 Branching adalah membuat cabang dari repositori utama dan melanjutkan melakukan pekerjaan pada cabang yang baru tersebut tanpa perlu khawatir mengacaukan yang utama. Dengan branching memungkinkan 2 orang untuk melakukan kolaborasi dengan mengedit branch yang berbeda, yang kemudia akan disatukan dengan fitur git merge. Cara membuat Git Branch ada 2 cara :
 - membuat branch secara langsung pada repository
-![](cara1bag3.png)
+<br> ![](cara1bag3.png) </br>
 - menambah branch saat ingin melakukan commit, *"Create a new branch for this commit and start a pull request."*
-![](cara2bag3.png) 
-
+<br> ![](cara2bag3.png) </br>
 
 <p>&nbsp;</p>
 
