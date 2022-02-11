@@ -33,6 +33,7 @@ GIT dan GitHub juga dapat dilakukan bersamaan dengan menggunakan push and pull
 <p>&nbsp;</p>
 
 ## BEKERJA DENGAN GITHUB
+![](github-halovina.png)
 Cara mengelola repository pada GitHub
 - Buat akun GitHub terlebih dahulu pada https://github.com/.
 - Tekan tanda (+) di bagian kanan atas dan tekan *"New Repository"*
