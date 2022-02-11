@@ -19,6 +19,7 @@
 <p>&nbsp;</p>
 
 ## APA ITU GIT & GITHUB
+![](github-halovina.png)
 GIT adalah salah satu contoh dari ***Version Control System*** atau disebut juga ***revision control system*** atau **source code management**. VCS (Version Control System) adalah sistem yang mengelola perubahan dari sebuah dokumen, program komputer, website, dan kumpulan informasi lain. Perubahan-perubahan tersebut dikelola dalama sebuah folder yang disebut repository/repo dan setiap perubahan perlu dilakukan commit terlebih dahulu.
 Beberapa hal mengenai VCS :
 - Sebuah sistem yang dapat menyimpan 'rekaman/snapshot perubahan pada source code'
@@ -33,7 +34,7 @@ GIT dan GitHub juga dapat dilakukan bersamaan dengan menggunakan push and pull
 <p>&nbsp;</p>
 
 ## BEKERJA DENGAN GITHUB
-![](github-halovina.png)
+![](bagian2.png)
 Cara mengelola repository pada GitHub
 - Buat akun GitHub terlebih dahulu pada https://github.com/.
 - Tekan tanda (+) di bagian kanan atas dan tekan *"New Repository"*
