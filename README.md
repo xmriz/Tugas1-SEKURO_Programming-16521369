@@ -47,9 +47,12 @@ Cara mengelola repository pada GitHub
 <p>&nbsp;</p>
 
 ## GITHUB: BRANCH
-We create the model for our SSL Robocup playing environment using the already existed model file in Gazebo. The base model that we used are `Robocup 2014 SPL Field` , `Robocup 3D Simulator Goal` , and `RoboCup SPL Ball`. Using those base model we modified its size and looks to suit the [Rules of the RoboCup SSL](https://robocup-ssl.github.io/ssl-rules/sslrules.html) for division A. The model for our playing environment can be found within `ssl_ws/src/sslbot_gazebo/models/` . To spawn our playing environment model, we spawn it using the world files since it doesn't need much handling like the robot. Here are the final looks of our playing environment model,  
+Branching adalah membuat cabang dari repositori utama dan melanjutkan melakukan pekerjaan pada cabang yang baru tersebut tanpa perlu khawatir mengacaukan yang utama. Dengan branching memungkinkan 2 orang untuk melakukan kolaborasi dengan mengedit branch yang berbeda, yang kemudia akan disatukan dengan fitur git merge. Cara membuat Git Branch ada 2 cara :
+- membuat branch secara langsung pada repository
+![](cara1bag3.png)
+- menambah branch saat ingin melakukan commit, *"Create a new branch for this commit and start a pull request."*
+![](cara2bag3.png) 
 
-![](https://i.ibb.co/dM7GPhR/Screenshot-from-2021-07-18-05-34-08.png)  
 
 <p>&nbsp;</p>
 
