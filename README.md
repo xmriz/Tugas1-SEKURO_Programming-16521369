@@ -47,22 +47,23 @@ Cara mengelola repository pada GitHub
 <p>&nbsp;</p>
 
 ## GITHUB: BRANCH
-Branching adalah membuat cabang dari repositori utama dan melanjutkan melakukan pekerjaan pada cabang yang baru tersebut tanpa perlu khawatir mengacaukan yang utama. Dengan branching memungkinkan 2 orang untuk melakukan kolaborasi dengan mengedit branch yang berbeda, yang kemudia akan disatukan dengan fitur git merge. Cara membuat Git Branch ada 2 cara :
+Branching adalah membuat cabang dari repositori utama dan melanjutkan melakukan pekerjaan pada cabang yang baru tersebut tanpa perlu khawatir mengacaukan yang utama. Dengan branching memungkinkan 2 orang untuk melakukan kolaborasi dengan mengedit branch yang berbeda, yang kemudian akan disatukan dengan fitur git merge. Cara membuat Git Branch ada 2 cara :
 - membuat branch secara langsung pada repository
 <br> ![](cara1bag3.png) </br>
 - menambah branch saat ingin melakukan commit, *"Create a new branch for this commit and start a pull request."*
 <br> ![](cara2bag3.png) </br>
 
+Setiap branch yang telah dibuat, dapat di gabungkan kembali ke branch utama (*master*) dengan melakukan merge dengan syarat tidak adanya konflik antara branch utama dan branch tersebut, atau dalam GitHub juga disebut *pull request*.
+<br> ![](bagian-3.png) </br>
+
+History dalam perubahan di repository dapat dilihat dalam sebuah graph di menu *"Insight"* bagian *'Network'*
+![](graphbag3.png)
+
 <p>&nbsp;</p>
 
 ## GITHUB: FORK
-For our robot model we use the .urdf format to make it easy when we want to use plugin within it. Our robot .urdf file can be found within `ssl_ws/src/sslbot_gazebo/urdf/` . We separate our model into two categories, one for the keeper and another for the rest of the robot. The plugin we used for our model are `planar move` for the keeper and `differential drive controller` for the rest of the field. The keeper used planar move for its movement because the keeper needs to go sideways and on a fixed track. Our robot publish its odometry to `/odom` topic and subscribe to `/cmd_vel` for its velocity. While the keeper publish its odometry to `/planar_odom` and subscribe to the topic `/planar_vel`. To spawn the robot we used the .launch file and give each robot we spawn its own namespace so we have no need to create separate .urdf file for each robot. Here is the SSL robot model we used for this simulator.  
-
-![](https://i.ibb.co/6n0cdqj/Screenshot-from-2021-07-18-05-35-37.png)
-
-The robot was made by mechanic squad and it was converted from `.iam` file (Inventor Assembly Model) to `.stl` (Standard Triangle Language) and finally into `.urdf` file which uses `.stl` as the mesh.
-
-![](photos/modelformat.png)
+GitHub memungkinkan repository milik orang lain beserta history di dalam repository diduplikat ke dalam repository pribadi kita. Sehingga, kita dapat memodifikasi repo tersebut untuk kita gunakan pada project kita tersendiri, atau kita juga dapat berkontribusi pada repo orang lain dengan mengusulkan perubahan tersebut ke pemilik repo (*pull request*).
+![](bagian4.png)
 
 <p>&nbsp;</p>
 
